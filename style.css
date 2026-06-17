@@ -1,0 +1,60 @@
+body{
+    background-color: #011F3F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    margin-top: 0;
+    color: #FEF2BF;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    cursor: pointer;
+    
+}
+
+#green{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border: 8px solid black;
+    border-radius: 30px;
+}
+
+#red{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border: 8px solid black;
+    border-radius: 30px;
+}
+
+#yellow{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border: 8px solid black;
+    border-radius: 30px;
+}
+
+#blue{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: 8px solid black;
+    border-radius: 30px;
+}
